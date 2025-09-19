@@ -1,12 +1,27 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" style="background:#0f1419;background-image:linear-gradient(135deg,#0f1419 0%,#1a0a2e 25%,#16213e 50%,#0f1419 75%,#1a1a2e 100%);background-size:400% 400%;min-height:100vh;">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>九命共同体 Nine Lives Commune</title>
+    <style>
+      /* 确保移动端立即显示背景 */
+      html, body {
+        background: #0f1419 !important;
+        background-image: linear-gradient(135deg, #0f1419 0%, #1a0a2e 25%, #16213e 50%, #0f1419 75%, #1a1a2e 100%) !important;
+        background-size: 400% 400% !important;
+        min-height: 100vh !important;
+        margin: 0;
+        padding: 0;
+      }
+      #root {
+        min-height: 100vh;
+        background: inherit;
+      }
+    </style>
   </head>
-  <body>
+  <body style="background:#0f1419;background-image:linear-gradient(135deg,#0f1419 0%,#1a0a2e 25%,#16213e 50%,#0f1419 75%,#1a1a2e 100%);background-size:400% 400%;min-height:100vh;margin:0;padding:0;">
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>
